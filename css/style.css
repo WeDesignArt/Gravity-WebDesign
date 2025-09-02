@@ -1,0 +1,1030 @@
+
+ /* Global Styles */
+
+body,html{
+    font-family: "Inter", sans-serif;
+    background-color: #000;
+}
+
+.custom-section{
+    position: relative;
+    z-index: 10; /* higher z-index to be above the blob */
+    
+}
+
+.learnmore{
+}
+
+
+.link-primary{
+  /* Bootstrap ka default underline remove karein */
+  text-decoration: none !important;
+
+  /* Naya gradient underline banayein */
+  background-image: linear-gradient(to right, #665DCD, #5FA4E6, #D2AB67);
+  background-size: 100% 2px; /* Underline ki width aur thickness */
+  background-position: 0 100%; /* Underline ko link ke niche rakhein */
+  background-repeat: no-repeat;
+  padding-top: 100px;
+}
+
+.bi-arrow-right{
+  font-size: 18px; /* icon size */
+  /* font-weight: 400; */
+  background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+  
+}
+
+/* -------------------------------------------- Overflow Group Setting -----------------------------------------------------*/
+
+.master-group{
+  overflow: hidden;
+}
+
+.mini-group{
+  overflow: hidden;
+}
+
+
+/* -------------------------------------------- Header Styles -----------------------------------------------------*/
+.navbar{
+    margin: 0 auto;  /* center align */
+}
+.navbar a{
+    color: #fff;
+    font-weight:400;
+    font-size: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.53px;
+    line-height: 24px;
+}
+
+.navbar a:hover{
+  
+    /* background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);  */
+    background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);
+
+
+}
+
+.hd-end button{
+    width:15px;
+    height:15px;
+    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+    padding: 0;
+    border: none;
+}
+
+.hd-end p{
+    
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.53px;
+    line-height: 24px;
+}
+
+.navbar .dropdown-toggle::after {
+  content: "";
+  border: none;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url("../img/span_after.svg") no-repeat center;
+  background-size: contain;
+  margin-left: 6px; 
+}
+
+/* Nav links hover effect remove */
+.nav-link:hover, 
+.nav-link:focus {
+  color: white !important;   /* apna normal color rakhe */
+  /* background-color: transparent !important;  */
+  text-decoration: none !important; 
+}
+
+/* Dropdown items hover effect remove */
+.dropdown-item:hover, 
+.dropdown-item:focus {
+  /* color: inherit !important;  */
+  color: white !important;
+  /* background-color: transparent !important;  */
+}
+.dropdown-menu {
+    /* White background ko hata kar custom background dein */
+    background: #111 !important;
+    
+    /* Box shadow ko bhi remove karein taake woh dikhe nahi */
+    box-shadow: none !important;
+    
+    /* Border ko bhi remove karein taake woh dikhe nahi */
+    border: none !important;
+
+    /* Gradient background ke liye */
+    background-image: linear-gradient(135deg, #222, #333, #444);
+}
+.dropdown-menu:hover {
+  color: #FFFFFF ;
+}
+/* -------------------------------------------- Section - 01 -----------------------------------------------------*/
+
+.section-01 h1{
+    font-weight: 500;
+    
+    line-height: 86px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.section-01 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    justify-content: center;
+    
+}
+
+.section-01 .btn{
+    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+    border: none;
+    
+    padding: 17px 28.5px 19px 27px;
+    font-weight: normal;
+    font-size: 19px;
+    text-transform: uppercase;
+    /* letter-spacing: 0.53px; */
+    border-radius: 0;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+/* -------------------------------------------- Section - 02 -----------------------------------------------------*/
+
+.section-02{
+ margin-top: 300px;
+ overflow: hidden;
+}
+
+
+
+.section-02 h1{
+    font-weight: 500;
+    
+    line-height: 86px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.section-02 p{
+   font-weight:normal; 
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.grid{
+    margin-top: 50px;
+}
+
+.grid p{
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    
+    color: #fff;
+}
+
+.grid h2{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 68px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+
+.border-gradient-bottom {
+  position: relative;
+}
+
+.border-gradient-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* border thickness */
+  background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+}
+
+
+.stats-box:hover{
+    background:linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+}
+
+.border-gradient-end {
+  position: relative;
+}
+
+.border-gradient-end::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;           /* right side attach */
+  width: 2px;         /* border thickness */
+  height: 100%;       /* full height */
+  background: linear-gradient(180deg, #665DCD, #5FA4E6);
+}
+
+.border-gradient-end-1 {
+  position: relative;
+}
+
+.border-gradient-end-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;           /* right side attach */
+  width: 2px;         /* border thickness */
+  height: 100%;       /* full height */
+  background: linear-gradient(180deg, #665DCD, #5FA4E6, #D2AB67);
+}
+.grid-top , .grid-bottom{
+  display: flex;
+}
+
+
+/* -------------------------------------------- Section - 03 -----------------------------------------------------*/
+
+.section-03 h1{
+    font-weight: 500;
+    
+    line-height: 86px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+}
+
+.section-03 p{
+   font-weight:normal; 
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: center;
+    line-height: 30px;
+}
+
+/* -------------------------------------------- Section - 04 -----------------------------------------------------*/
+
+.section-04{
+ margin-top: 122px;
+ position: relative;
+ z-index: 100;
+
+}
+
+
+
+.section-04 h2{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.section-04 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.section-04 p{
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+/* Img - Settings */
+
+.crypto-project{
+    height: 500px;
+    width: 500px;
+}
+
+.crypto-project img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+/* -------------------------------------------- Section - 05 -----------------------------------------------------*/
+
+
+.section-05{
+ margin-top: 122px;
+
+}
+
+
+
+.section-05 h2{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.section-05 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.section-05 p{
+    font-weight:200;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.crtpto-exchange img{
+   
+    
+    z-index: 100;
+}
+
+
+/* -------------------------------------------- Section - 06 -----------------------------------------------------*/
+
+
+.section-06{
+    margin-top: 300px;
+}
+
+.section-06 h1{
+    font-weight: 500;
+    line-height: 86px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.section-06 h5{
+  font-size: 11px;
+  font-weight: 200;
+  text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+
+/* .custom-card-01{
+    width: 192px;
+    height: 192px;
+} */
+
+.custom-card-01 .card-body{
+    /* background: linear-gradient(to bottom,#1B1B1E 75%,#415572 75%); */
+}
+          /* .slider {} */
+          .slider {
+            display: flex; /* Use Flexbox on the parent container */
+            justify-content: center; /* Center the columns horizontally */
+            align-items: center; /* Align items vertically */
+            color: #000;
+            margin-top: 100px;
+}
+
+          .column {
+            position: relative;
+            height: 500px;
+            overflow: hidden;
+            width: 100%; /* ensure full width of col-lg-6 */
+          }
+
+          .cards {
+            display:flex;
+            flex-direction: column;
+            gap: 20px;
+          }
+
+          
+          .card {
+            width: 192px;
+            height: 192px;
+            background: #222;
+            border-radius: 10px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            border-color: #415572;
+          }
+
+          /* Animation for left column (upwards) */
+          .left .cards {
+            animation: moveUp 20s linear infinite;
+          }
+
+          @keyframes moveUp {
+            0% {
+              transform: translateY(0);
+            }
+
+            100% {
+              transform: translateY(-75%);
+            }
+          }
+
+          /* Animation for right column (downwards) */
+          .right .cards {
+            animation: moveDown 20s linear infinite;
+          }
+
+          @keyframes moveDown {
+            0% {
+              transform: translateY(-50%);
+            }
+
+            100% {
+              transform: translateY(0);
+            }
+          }
+
+          /* Fade effect top-bottom */
+          .column::before,
+          .column::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            z-index: 5;
+          }
+
+          .column::before {
+            top: 0;
+            /* background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0)); */
+          }
+
+          .column::after {
+            bottom: 0;
+            /* background: linear-gradient(to top, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0));  slider body color*/
+          }
+
+
+/* -------------------------------------------- Section - 07 -----------------------------------------------------*/
+
+.section-07{
+ margin-top: 122px;
+
+}
+
+
+
+.section-07 h1{
+    font-weight: 500;
+    line-height: 78px;
+    color: #FFFFFF;
+    
+}
+.section-07 p{
+   font-weight:200; 
+    font-size: 22px;
+}
+
+/* Testimonial text styling */
+
+.testimonial-text {
+  max-width: 700px;
+  margin: 0 auto;
+  
+  color: #fff;
+}
+
+/* Author styling */
+.swiper-slide h6 {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 23px;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.swiper-slide .testimonial-text {
+  font-size: 26px;
+  line-height: 44px;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.swiper-slide .author{
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 200; 
+    border-right: 3px solid white;
+}
+
+
+/* Arrows styling */
+
+:root {
+    --swiper-navigation-sides-offset: 44%;
+    --swiper-navigation-top-offset: 7%;
+}
+
+.swiper-button-next i,
+.swiper-button-prev i {
+  font-size: 60px; /* icon size */
+  font-weight: 200;
+  background: linear-gradient(180deg, #665DCD, #5FA4E6, #D2AB67);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;
+  
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none !important;
+}
+
+
+
+/* Indicators styling */
+
+/* sab bullets */
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  background: linear-gradient(180deg, #665DCD, #5FA4E6, #D2AB67);
+}
+
+
+
+
+
+/* Swiper Styles */
+   
+
+.swiper {
+  width: 1056px;
+  height: 600px;
+}
+
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+
+
+
+    
+  
+
+/* -------------------------------------------- Section - 08 -----------------------------------------------------*/
+
+
+.section-08{
+    margin-top: 222px;
+}
+
+.section-08 p{
+   font-weight:200; 
+    font-size: 19px;
+    line-height: 30px;
+    justify-content: center;
+    align-items: middle;
+    line-height: 30px;
+}
+
+/* -------------------------------------------- Section - 09 -----------------------------------------------------*/
+
+
+.section-09{
+    margin-top: 122px;
+    
+}
+
+.section-09 h1{
+    font-weight: 500;
+    line-height: 78px;
+    
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.section-09 p{
+   font-weight:200; 
+    font-size: 19px;
+    line-height: 30px;
+    justify-content: center;
+    align-items: middle;
+    line-height: 30px;
+}
+
+
+.section-09 .btn{
+    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+    border: none;
+    
+    padding: 17px 28.5px 19px 27px;
+    font-weight: normal;
+    font-size: 19px;
+    text-transform: uppercase;
+    /* letter-spacing: 0.53px; */
+    border-radius: 0;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* -------------------------------------------- Footer Styles -----------------------------------------------------*/
+
+.custom-footer{
+    margin-top: 122px;
+    background-color: #000;
+    color: #fff;
+}
+
+.custom-footer a{
+    font-weight:200;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.custom-footer h5{
+    font-weight:400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+
+/* -------------------------------------------- Blob Styles -----------------------------------------------------*/
+/* section-05 */
+.gradient-blob {
+    position: absolute;
+    top: -1518px;
+    left: -622px;
+    z-index: -1;
+}
+
+/* section - 06 */
+.gradient-logo {
+    position: absolute;
+    top: -380px;
+    left: 100px;
+    z-index: -1;
+}
+
+/* section-8 */
+.gradient-blu {
+    position: absolute;
+    top: -114px;
+    left: 600px;
+    z-index: -1;
+}
+
+/* sec-09 */
+.gradient-group {
+    position: absolute;
+    top: -150px;
+    left: 600px;
+    z-index: -1;
+}
+
+
+
+
+/* ======================================================================================== */
+
+
+/* ------------------------   Media Query   ----------------------------- */
+/* ----   Media Query - 1600px  ---- */
+
+@media (max-width: 1600px){
+
+
+  /* section-05 */
+.gradient-blob {
+    position: absolute;
+    top: -1400px;
+    left: -1010px;
+    z-index: -1;
+}
+
+/* section - 06 */
+.gradient-logo {
+    position: absolute;
+    top: -367px;
+    left: -398px;
+    z-index: -1;
+}
+
+/* section-8 */
+.gradient-blu {
+    position: absolute;
+    top: -110px;
+    left: 30px;
+    z-index: -1;
+}
+
+/* sec-09 */
+.gradient-group {
+    position: absolute;
+    top: -150px;
+    left: 100px;
+    z-index: -1;
+}
+
+}
+
+
+/* ----   Media Query - 1400px  ---- */
+
+
+@media (max-width: 1400px){
+
+/* section-8 */
+.gradient-blu {
+    position: absolute;
+    top: -110px;
+    left: -100px;
+    z-index: -1;
+}
+
+/* sec-09 */
+.gradient-group {
+    position: absolute;
+    top: -135px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+}
+
+
+
+/* ----   Media Query - Cellphone  ---- */
+
+@media(max-width: 576px){
+
+  /* ------------------------- Header -------------------------------- */
+  .hd-end p{
+    font-size: 5px;
+  }
+  .navbar-toggler{
+    
+     border: 1px solid transparent; /* Fallback border for browsers that don't support border-image */
+  border-image: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+  border-image-slice: 1; /
+}
+    
+.navbar-toggler {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* Offcanvas menu ka background */
+.offcanvas {
+  background-image: linear-gradient(135deg, #0f0f0f, #222222);
+  background-color: #111 !important; /* Fallback color */
+}
+
+/* Offcanvas header ka background, taaki woh container se match kare */
+.offcanvas-header {
+  background-color: transparent !important;
+  border-bottom: 1px solid #444; /* Ek subtle border */
+}
+
+/* Close button ka color white karein */
+.offcanvas-header .btn-close {
+  filter: invert(1); /* Hamburger icon ko white karne ke liye */
+}
+
+/* Offcanvas ke links ka color */
+.offcanvas-body .navbar-nav .nav-link {
+  color: white; /* Links ka color white karein */
+}
+    /* ------------------------- Section - 01 -------------------------------- */
+
+  
+    /* ------------------------- Section - 02 -------------------------------- */
+    .section-02{
+      margin-top: 122px;
+    }
+  
+
+    .grid h2 {
+    font-size: 28px; 
+
+  }
+  .grid p {
+    font-size: 14px;
+
+  }
+  .border-gradient-bottom::after {
+    content: "";
+    position: absolute;
+    bottom: 152px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+}
+  .border-gradient-bottom1::after {
+    content: "";
+    position: absolute;
+    bottom: 50;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+}
+  .border-gradient-bottom2::after {
+    content: "";
+    position: absolute;
+    bottom: 148px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+}
+    /* ------------------------- Section - 03 -------------------------------- */
+
+
+    /* ------------------------- Section - 04 -------------------------------- */
+
+
+    .section-04-text{
+      text-align: center;
+    }
+
+    .crypto-project {
+    height: 396px;
+    width: 350px;
+    object-fit: cover;
+}
+  
+    /* ------------------------- Section - 05 -------------------------------- */
+  .section-05{
+    overflow: hidden;
+  }
+    .section-05-text{
+      text-align: center;
+    }
+
+
+    /* ------------------------- Section - 06 -------------------------------- */
+    .section-06 h1{
+      text-align: center;
+    }
+    /* ------------------------- Section - 07 -------------------------------- */
+    .swiper-slide .testimonial-text {
+      font-size: 15px;
+    }
+
+:root {
+    --swiper-navigation-sides-offset: 30%;
+    --swiper-navigation-top-offset: 7%;
+}
+
+    /* ------------------------- Section - 08 -------------------------------- */
+  .section-08{
+    overflow: hidden;
+  }
+  .section-08-text, .section-08 h1{
+    text-align: center;
+  }
+      /* ------------------------- Section - 09 -------------------------------- */
+  .section-09{
+    overflow: hidden;
+  }
+    
+    /* ------------------------- Footer - Section -------------------------------- */
+
+    
+
+  
+
+/* -------------------------------------------- Blob Styles -----------------------------------------------------*/
+/* section-05 */
+.gradient-blob {
+  top: -186px;
+  left: -622px;
+}
+
+
+/* sec-06 */
+.gradient-logo {
+  top: -475px;
+  left: -420px;
+}
+
+
+/* section-08 */
+.gradient-blu {
+ top: -35px;
+ left: -100px;
+}
+
+/* section-09 */
+.gradient-group{
+  top: -80px;
+  left: -15px;
+}
+
+
+
+/* -------------------------------------------- Blob Styles -----------------------------------------------------*/
+/* section-05 */
+    .gradient-blob img {
+        height: 1000px;
+        width: 1435px;
+    }
+/* section - 06 */
+.gradient-logo img {
+  height: 800px;
+  width: 800px;
+}
+
+/* section - 09 */
+.gradient-group img{
+  height: 500px;
+  width: 500px;
+  
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
