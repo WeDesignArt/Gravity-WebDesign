@@ -12,8 +12,6 @@ body,html{
     
 }
 
-.learnmore{
-}
 
 
 .link-primary{
@@ -27,7 +25,9 @@ body,html{
   background-repeat: no-repeat;
   padding-top: 100px;
 }
-
+.link-primary:hover{
+  text-decoration: none;
+}
 .bi-arrow-right{
   font-size: 18px; /* icon size */
   /* font-weight: 400; */
@@ -172,6 +172,7 @@ body,html{
 .section-02{
  margin-top: 300px;
  overflow: hidden;
+ z-index: 100;
 }
 
 
