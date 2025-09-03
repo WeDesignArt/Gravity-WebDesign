@@ -39,6 +39,33 @@ body,html{
   
 }
 
+.back-to-top{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #fb684f; */
+  background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);
+  font-size: 25px;
+  z-index: 1111;
+  border-radius: 0.5rem;
+  padding: 7px 15px;
+  transition: 0.2s ease-out;
+}
+.back-to-top i{
+  color: white;
+}
+.back-to-top:hover{
+  background-color: #fb515e;
+
+}
+ .back-to-top:hover i{
+   transform: translateY(-10px);
+ 
+}
+
 /* -------------------------------------------- Overflow Group Setting -----------------------------------------------------*/
 
 .master-group{
@@ -165,7 +192,9 @@ body,html{
 }
 
 /* -------------------------------------------- Section - 01 -----------------------------------------------------*/
-
+.section-01{
+  margin-top: 280px;
+}
 .section-01 h1{
     font-weight: 500;
     
@@ -877,6 +906,9 @@ h2,h1,h4,p{
   background-color: #111 !important; /* Fallback color */
 }
   /* ------------------------- Section - 01 -------------------------------- */
+  .section-01{
+  margin-top: 122px;
+}
 
   
   /* ------------------------- Section - 02 -------------------------------- */
