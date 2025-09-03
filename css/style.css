@@ -132,6 +132,41 @@ body,html{
 .dropdown-menu:hover {
   color: #FFFFFF ;
 }
+
+/* ------------------ Navbar-toggler ------------------------ */
+
+.navbar-toggler{
+    
+     border: 1px solid transparent; /* Fallback border for browsers that don't support border-image */
+  border-image: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+  border-image-slice: 1; /
+}
+    
+.navbar-toggler {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* Offcanvas menu ka background */
+.offcanvas {
+  background-image: linear-gradient(135deg, #0f0f0f, #222222);
+  background-color: #111 !important; /* Fallback color */
+}
+
+/* Offcanvas header ka background, taaki woh container se match kare */
+.offcanvas-header {
+  background-color: transparent !important;
+  border-bottom: 1px solid #444; /* Ek subtle border */
+}
+
+/* Close button ka color white karein */
+.offcanvas-header .btn-close {
+  filter: invert(1); /* Hamburger icon ko white karne ke liye */
+}
+
+/* Offcanvas ke links ka color */
+.offcanvas-body .navbar-nav .nav-link {
+  color: white; /* Links ka color white karein */
+}
+
 /* -------------------------------------------- Section - 01 -----------------------------------------------------*/
 
 .section-01 h1{
@@ -627,6 +662,11 @@ body,html{
     margin-top: 222px;
 }
 
+.section-08-heading h1{
+  font-weight: 400;
+  }
+
+
 .section-08 p{
    font-weight:200; 
     font-size: 19px;
@@ -806,7 +846,136 @@ body,html{
 
 }
 
+/* ======================================================================================== */
 
+
+/* ----   Media Query - Tablet  ---- */
+
+@media(max-width: 768px){
+
+h2,h1,h4,p{
+  text-align: center;
+}
+
+ .section-08-text, .section-05-text, .section-04-text{
+  text-align: center;
+}
+  /* ------------------------- Header -------------------------------- */
+
+  header{
+    align-content: center;
+    text-align: center;
+    
+  }
+  .navbar-toggler{
+    margin: auto;
+  }
+
+  /* ------------------------- Section - 01 -------------------------------- */
+
+  
+  /* ------------------------- Section - 02 -------------------------------- */
+.section-02 {
+  margin-top: 122px;
+}
+
+.grid p {
+  font-size: 17px;
+}
+.grid h2 {
+  font-size: 27px;
+}
+
+  /* ------------------------- Section - 06 -------------------------------- */
+
+.card {
+    width: 300px;
+    height: 300px;
+}
+
+    /* ------------------------- Section - 07 -------------------------------- */
+    :root {
+    --swiper-navigation-sides-offset: 35%;
+    --swiper-navigation-top-offset: 7%;
+}
+
+
+    /* ------------------------- Section - 08 -------------------------------- */ 
+
+
+.section-08 {
+    margin-top: 122px;
+}
+
+.section-08-heading h1{
+  font-weight: 500;
+}
+
+
+
+
+
+/* -------------------------------------------- Blob Styles -----------------------------------------------------*/
+/* section-05 */
+.gradient-blob {
+  top: -1509px;
+  left: -1135px;
+}
+
+
+/* sec-06 */
+.gradient-logo {
+  top: -475px;
+  left: -420px;
+}
+
+
+/* section-08 */
+.gradient-blu {
+  top: -100px;
+  left: 50px;
+}
+
+/* section-09 */
+.gradient-group{
+  top: -80px;
+  left: -15px;
+}
+
+/* -------------------------------------------- Blob Styles -Sizes -----------------------------------------------------*/
+/* section-05 */
+    .gradient-blob img {
+        /* height: 1000px;
+        width: 1435px; */
+    }
+    
+/* section - 06 */
+.gradient-logo img {
+  height: 800px;
+  width: 800px;
+}
+
+/* section - 09 */
+.gradient-group img{
+  height: 480px;
+  width: 880px;
+  
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================================== */
 
 /* ----   Media Query - Cellphone  ---- */
 
@@ -816,37 +985,7 @@ body,html{
   .hd-end p{
     font-size: 5px;
   }
-  .navbar-toggler{
-    
-     border: 1px solid transparent; /* Fallback border for browsers that don't support border-image */
-  border-image: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
-  border-image-slice: 1; /
-}
-    
-.navbar-toggler {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-/* Offcanvas menu ka background */
-.offcanvas {
-  background-image: linear-gradient(135deg, #0f0f0f, #222222);
-  background-color: #111 !important; /* Fallback color */
-}
-
-/* Offcanvas header ka background, taaki woh container se match kare */
-.offcanvas-header {
-  background-color: transparent !important;
-  border-bottom: 1px solid #444; /* Ek subtle border */
-}
-
-/* Close button ka color white karein */
-.offcanvas-header .btn-close {
-  filter: invert(1); /* Hamburger icon ko white karne ke liye */
-}
-
-/* Offcanvas ke links ka color */
-.offcanvas-body .navbar-nav .nav-link {
-  color: white; /* Links ka color white karein */
-}
+  
     /* ------------------------- Section - 01 -------------------------------- */
 
   
