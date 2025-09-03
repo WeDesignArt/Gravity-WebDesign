@@ -857,6 +857,11 @@ h2,h1,h4,p{
  .section-08-text, .section-05-text, .section-04-text{
   text-align: center;
 }
+
+.crypto-project img, .crtpto-exchange img{
+    padding-left: 100px;
+    
+}
   /* ------------------------- Header -------------------------------- */
 
   header{
@@ -980,6 +985,9 @@ h2,h1,h4,p{
 /* ----   Media Query - Cellphone  ---- */
 
 @media(max-width: 576px){
+      .crypto-project img, .crtpto-exchange img {
+        padding-left: 0px;
+    }
 
   /* ------------------------- Header -------------------------------- */
   .hd-end p{
