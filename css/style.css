@@ -8,7 +8,7 @@ body,html{
 
 .custom-section{
     position: relative;
-    z-index: 10; /* higher z-index to be above the blob */
+    z-index: 1; /* higher z-index to be above the blob */
     
 }
 
@@ -325,13 +325,13 @@ body,html{
 /* Img - Settings */
 
 .crypto-project{
-    height: 500px;
-    width: 500px;
+    /* height: 500px;
+    width: 500px; */
 }
 
 .crypto-project img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     object-fit: contain;
 }
 
@@ -902,8 +902,8 @@ body,html{
     }
 
     .crypto-project {
-    height: 396px;
-    width: 350px;
+    /* height: 396px;
+    width: 350px; */
     object-fit: cover;
 }
   
@@ -920,9 +920,16 @@ body,html{
     .section-06 h1{
       text-align: center;
     }
+
+    .card {
+    width: 150px;
+    height: 150px;
+    }
+
+
     /* ------------------------- Section - 07 -------------------------------- */
     .swiper-slide .testimonial-text {
-      font-size: 15px;
+      font-size: 18px;
     }
 
 :root {
