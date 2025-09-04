@@ -12,8 +12,6 @@ body,html{
     
 }
 
-
-
 .link-primary {
   position: relative; /* Zaroori hai */
   text-decoration: none !important;
@@ -86,42 +84,39 @@ body,html{
 
 /* -------------------------------------------- Header Styles -----------------------------------------------------*/
 .navbar{
-    margin: 0 auto;  /* center align */
+  margin: 0 auto;  /* center align */
 }
+
 .navbar a{
-    color: #fff;
-    font-weight:400;
-    font-size: 15px;
-    padding: 10px 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.53px;
-    line-height: 24px;
+  color: #fff;
+  font-weight:400;
+  font-size: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.53px;
+  line-height: 24px;
 }
 
-.navbar a:hover{
-  
-    /* background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);  */
-    background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);
-
-
+.navbar a:hover{  
+  /* background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);  */
+  background: linear-gradient(120deg, #665DCD, #5FA4E6, #D2AB67);
 }
 
 .hd-end button{
-    width:15px;
-    height:15px;
-    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
-    padding: 0;
-    border: none;
+  width:15px;
+  height:15px;
+  background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+  padding: 0;
+  border: none;
 }
 
-.hd-end p{
-    
-    font-weight: 500;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.53px;
-    line-height: 24px;
+.hd-end p{    
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.53px;
+  line-height: 24px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -150,19 +145,21 @@ body,html{
   color: white !important;
   /* background-color: transparent !important;  */
 }
-.dropdown-menu {
-    /* White background ko hata kar custom background dein */
-    background: #111 !important;
-    
-    /* Box shadow ko bhi remove karein taake woh dikhe nahi */
-    box-shadow: none !important;
-    
-    /* Border ko bhi remove karein taake woh dikhe nahi */
-    border: none !important;
 
-    /* Gradient background ke liye */
-    background-image: linear-gradient(135deg, #222, #333, #444);
+.dropdown-menu {
+  /* White background ko hata kar custom background dein */
+  background: #111 !important;
+    
+  /* Box shadow ko bhi remove karein taake woh dikhe nahi */
+  box-shadow: none !important;
+    
+  /* Border ko bhi remove karein taake woh dikhe nahi */
+  border: none !important;
+
+  /* Gradient background ke liye */
+  background-image: linear-gradient(135deg, #222, #333, #444);
 }
+
 .dropdown-menu:hover {
   color: #FFFFFF ;
 }
@@ -170,8 +167,7 @@ body,html{
 /* ------------------ Navbar-toggler ------------------------ */
 
 .navbar-toggler{
-    
-     border: 1px solid transparent; /* Fallback border for browsers that don't support border-image */
+  border: 1px solid transparent; /* Fallback border for browsers that don't support border-image */
   border-image: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
   border-image-slice: 1; /
 }
@@ -202,75 +198,71 @@ body,html{
 .section-01{
   margin-top: 280px;
 }
+
 .section-01 h1{
-    font-weight: 500;
-    
-    line-height: 86px;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    margin-bottom: 20px;
+  font-weight: 500;  
+  line-height: 86px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 
 .section-01 p{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    justify-content: center;
-    
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  justify-content: center;    
 }
 
 .section-01 .btn{
-    background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
-    border: none;
-    
-    padding: 17px 28.5px 19px 27px;
-    font-weight: normal;
-    font-size: 19px;
-    text-transform: uppercase;
-    /* letter-spacing: 0.53px; */
-    border-radius: 0;
-    color: #fff;
-    margin-top: 30px;
+  background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
+  border: none;  
+  padding: 17px 28.5px 19px 27px;
+  font-weight: normal;
+  font-size: 19px;
+  text-transform: uppercase;
+  /* letter-spacing: 0.53px; */
+  border-radius: 0;
+  color: #fff;
+  margin-top: 30px;
 }
 
 
 /* -------------------------------------------- Section - 02 -----------------------------------------------------*/
 
 .section-02{
- margin-top: 300px;
- overflow: hidden;
- z-index: 100;
+  margin-top: 300px;
+  overflow: hidden;
+  z-index: 100;
 }
 
 
 
 .section-02 h1{
-    font-weight: 500;
-    
-    line-height: 86px;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    margin-bottom: 20px;
+  font-weight: 500;    
+  line-height: 86px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .section-02 p{
-   font-weight:normal; 
-    font-size: 20px;
-    line-height: 30px;
-    justify-content: center;
-    line-height: 30px;
+  font-weight:normal; 
+  font-size: 20px;
+  line-height: 30px;
+  justify-content: center;
+  line-height: 30px;
 }
 
 .grid{
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .grid p{
     font-weight: normal;
     font-size: 19px;
     line-height: 30px;
-    
     color: #fff;
 }
 
@@ -330,6 +322,7 @@ body,html{
   height: 100%;       /* full height */
   background: linear-gradient(180deg, #665DCD, #5FA4E6, #D2AB67);
 }
+
 .grid-top , .grid-bottom{
   display: flex;
 }
@@ -344,7 +337,6 @@ body,html{
     letter-spacing: 0%;
     color: #FFFFFF;
     margin-bottom: 20px;
-    
 }
 
 .section-03 p{
@@ -361,10 +353,7 @@ body,html{
  margin-top: 122px;
  position: relative;
  z-index: 100;
-
 }
-
-
 
 .section-04 h2{
     font-weight: 400;
@@ -411,17 +400,14 @@ body,html{
 
 .section-05{
  margin-top: 122px;
-
 }
 
-
-
 .section-05 h2{
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 44px;
-    color: #FFFFFF;
-    margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
 }
 
 .section-05 h4{
@@ -440,10 +426,8 @@ body,html{
     margin-bottom: 30px;
 }
 
-.crtpto-exchange img{
-   
-    
-    z-index: 100;
+.crtpto-exchange img{    
+  z-index: 100;
 }
 
 
@@ -451,32 +435,33 @@ body,html{
 
 
 .section-06{
-    margin-top: 300px;
+  margin-top: 300px;
 }
 
 .section-06 h1{
-    font-weight: 500;
-    line-height: 86px;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 86px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .section-06 h5{
   font-size: 11px;
   font-weight: 200;
   text-transform: uppercase;
-    line-height: 22px;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    margin-top: 10px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-top: 10px;
 }
 
 .fade-up{
-    top: 95px;
-    left: 1352px;
-    position: absolute;
+  top: 95px;
+  left: 1352px;
+  position: absolute;
 }
+
  .fade-up img{
   width: 500px;
  }
@@ -500,108 +485,105 @@ body,html{
     /* background: linear-gradient(to bottom,#1B1B1E 75%,#415572 75%); */
 }
           /* .slider {} */
-          .slider {
-            display: flex; /* Use Flexbox on the parent container */
-            justify-content: center; /* Center the columns horizontally */
-            align-items: center; /* Align items vertically */
-            /* color: #141619; */
-            margin-top: 100px;
+.slider {
+  display: flex; /* Use Flexbox on the parent container */
+  justify-content: center; /* Center the columns horizontally */
+  align-items: center; /* Align items vertically */
+  /* color: #141619; */
+  margin-top: 100px;
 }
 
-          .column {
-            position: relative;
-            height: 500px;
-            overflow: hidden;
-            width: 100%; /* ensure full width of col-lg-6 */
-          }
+.column {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  width: 100%; /* ensure full width of col-lg-6 */
+}
 
-          .cards {
-            display:flex;
-            flex-direction: column;
-            gap: 20px;
-          }
+.cards {
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
           
-          .card {
-            width: 192px;
-            height: 192px;
-            background: #222;
-            border-radius: 10px;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 18px;
-            font-weight: bold;
-            border-color: #415572;
-          }
+.card {
+  width: 192px;
+  height: 192px;
+  background: #222;
+  border-radius: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: #415572;
+}
 
           /* Animation for left column (upwards) */
-          .left .cards {
-            animation: moveUp 50s linear infinite;
-          }
+.left .cards {
+  animation: moveUp 50s linear infinite;
+}
 
-          @keyframes moveUp {
-            0% {
-              transform: translateY(0);
-            }
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+}
 
-            100% {
-              transform: translateY(-75%);
-            }
-          }
+  100% {
+    transform: translateY(-75%);
+  }
+}
 
-          /* Animation for right column (downwards) */
-          .right .cards {
-            animation: moveDown 50s linear infinite;
-          }
+/* Animation for right column (downwards) */
+.right .cards {
+  animation: moveDown 50s linear infinite;
+}
 
-          @keyframes moveDown {
-            0% {
-              transform: translateY(-50%);
-            }
+@keyframes moveDown {
+  0% {
+    transform: translateY(-50%);
+  }
 
-            100% {
-              transform: translateY(0);
-            }
-          }
+  100% {
+    transform: translateY(0);
+  }
+}
 
           /* Fade effect top-bottom */
-          .column::before,
-          .column::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            width: 100%;
-            height: 120px;
-            z-index: 5;
-          }
+.column::before, .column::after {
+  content: "";
+  position:absolute;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 5;
+}
 
-          .column::before {
-            top: 0;
-            /* background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0)); */
-          }
+.column::before {
+  top: 0;
+ /* background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0)); */
+}
 
-          .column::after {
-            bottom: 0;
-            /* background: linear-gradient(to top, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0));  slider body color*/
-          }
+.column::after {
+  bottom: 0;
+  /* background: linear-gradient(to top, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0));  slider body color*/
+}
 
 
 /* -------------------------------------------- Section - 07 -----------------------------------------------------*/
 
 .section-07{
  margin-top: 122px;
-
 }
-
 
 
 .section-07 h1{
     font-weight: 500;
     line-height: 78px;
     color: #FFFFFF;
-    
 }
+
 .section-07 p{
    font-weight:200; 
     font-size: 22px;
@@ -659,9 +641,9 @@ body,html{
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent; 
   background-clip: text;
-  color: transparent;
-  
+  color: transparent;  
 }
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none !important;
@@ -685,18 +667,18 @@ body,html{
    
 
 .swiper {
-  width: 1056px;
-  height: 600px;
+ width: 1056px;
+ height: 600px;
 }
 
 .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      /* background: #141619; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  text-align: center;
+  font-size: 18px;
+  /* background: #141619; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -715,16 +697,16 @@ body,html{
 
 .section-08-heading h1{
   font-weight: 400;
-  }
+}
 
 
 .section-08 p{
-   font-weight:200; 
-    font-size: 19px;
-    line-height: 30px;
-    justify-content: center;
-    align-items: middle;
-    line-height: 30px;
+  font-weight:200; 
+  font-size: 19px;
+  line-height: 30px;
+  justify-content: center;
+  align-items: middle;
+  line-height: 30px;
 }
 
 /* -------------------------------------------- Section - 09 -----------------------------------------------------*/
@@ -737,8 +719,7 @@ body,html{
 
 .section-09 h1{
     font-weight: 500;
-    line-height: 78px;
-    
+    line-height: 78px;    
     color: #FFFFFF;
     text-transform: capitalize;
 }
@@ -765,6 +746,7 @@ body,html{
     border-radius: 0;
     color: #fff;
     margin-top: 30px;
+
 }
 
 /* -------------------------------------------- Footer Styles -----------------------------------------------------*/
@@ -904,7 +886,7 @@ body,html{
 
 @media(max-width: 768px){
 
-h2,h1,h4,p{
+h2,h1,h4,p {
   text-align: center;
 }
 
@@ -920,16 +902,17 @@ h2,h1,h4,p{
 
   header{
     align-content: center;
-    
-    
-  }
+}
+
   .navbar-toggler{
     margin: auto;
-  }
-  .offcanvas {
+}
+
+ .offcanvas {
   background-image: linear-gradient(135deg, #0f0f0f, #222222);
   background-color: #111 !important; /* Fallback color */
 }
+
   /* ------------------------- Section - 01 -------------------------------- */
   .section-01{
   margin-top: 122px;
@@ -1008,8 +991,8 @@ h2,h1,h4,p{
 /* section-05 */
     .gradient-blob img {
         /* height: 1000px;
-        width: 1435px; */
-    }
+        width: 1435px; */ 
+}
     
 /* section - 06 */
 .gradient-logo img {
@@ -1021,7 +1004,6 @@ h2,h1,h4,p{
 .gradient-group img{
   height: 480px;
   width: 880px;
-  
 }
 
 }
@@ -1042,14 +1024,16 @@ h2,h1,h4,p{
 /* ----   Media Query - Cellphone  ---- */
 
 @media(max-width: 576px){
-      .crypto-project img, .crtpto-exchange img {
-        padding-left: 0px;
-    }
+
+.crypto-project img, .crtpto-exchange img {
+  padding-left: 0px;
+}
 
   /* ------------------------- Header -------------------------------- */
   .hd-end p{
     font-size: 5px;
-  }
+}
+
 .custom-border{
   border-bottom: 1px solid #444;
 
@@ -1062,17 +1046,18 @@ h2,h1,h4,p{
     /* ------------------------- Section - 02 -------------------------------- */
     .section-02{
       margin-top: 122px;
-    }
+}
   
 
     .grid h2 {
     font-size: 28px; 
-
   }
+
   .grid p {
     font-size: 14px;
 
   }
+
   .border-gradient-bottom::after {
     content: "";
     position: absolute;
@@ -1082,6 +1067,7 @@ h2,h1,h4,p{
     height: 2px;
     background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
 }
+
   .border-gradient-bottom1::after {
     content: "";
     position: absolute;
@@ -1091,6 +1077,7 @@ h2,h1,h4,p{
     height: 2px;
     background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
 }
+
   .border-gradient-bottom2::after {
     content: "";
     position: absolute;
@@ -1100,6 +1087,7 @@ h2,h1,h4,p{
     height: 2px;
     background: linear-gradient(135deg, #665DCD, #5FA4E6, #D2AB67);
 }
+
     /* ------------------------- Section - 03 -------------------------------- */
 
 
@@ -1120,15 +1108,16 @@ h2,h1,h4,p{
   .section-05{
     /* overflow: hidden; */
   }
-    .section-05-text{
-      text-align: center;
-    }
+
+.section-05-text{
+  text-align: center;
+}
 
 
     /* ------------------------- Section - 06 -------------------------------- */
     .section-06 h1{
       text-align: center;
-    }
+}
 
     .card {
     width: 150px;
@@ -1137,7 +1126,7 @@ h2,h1,h4,p{
 
 
 
-    .fade-up{
+.fade-up{
     top: 205px;
     left: 0px;
     position: absolute;
@@ -1160,9 +1149,9 @@ h2,h1,h4,p{
 
 
     /* ------------------------- Section - 07 -------------------------------- */
-    .swiper-slide .testimonial-text {
-      font-size: 18px;
-    }
+.swiper-slide .testimonial-text {
+  font-size: 18px;
+}
 
 :root {
     --swiper-navigation-sides-offset: 30%;
