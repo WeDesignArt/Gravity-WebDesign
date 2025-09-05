@@ -424,10 +424,15 @@ body,html{
     line-height: 30px;
     color: #FFFFFF;
     margin-bottom: 30px;
+    
 }
 
 .crtpto-exchange img{    
   z-index: 100;
+}
+.section-05-text{
+   position: relative;
+ z-index: 100;
 }
 
 
@@ -903,7 +908,7 @@ h2,h1,h4,p {
 }
 
   .navbar-toggler{
-    margin: auto;
+   align-items: end;
 }
 
  .offcanvas {
@@ -914,6 +919,10 @@ h2,h1,h4,p {
   /* ------------------------- Section - 01 -------------------------------- */
   .section-01{
   margin-top: 122px;
+}
+
+.hd-end{
+  display: none;
 }
 
   
@@ -928,6 +937,13 @@ h2,h1,h4,p {
 .grid h2 {
   font-size: 27px;
 }
+  /* ------------------------- Section - 05 -------------------------------- */
+
+  .section-05-text{
+    position: relative;
+    z-index: 11111111;
+  }
+
 
   /* ------------------------- Section - 06 -------------------------------- */
 
